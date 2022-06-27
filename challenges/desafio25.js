@@ -5,7 +5,7 @@ db.produtos.updateMany({ valoresNutricionais: { $elemMatch: {
 
 $push: {
   tags: {
-    $each: ["contém sódio"] },
+    $each: ["muito sódio"] },
 },
 });
 
