@@ -1,3 +1,3 @@
-db.produtos.find({},{     
+db.produtos.find({}, {     
   nome: true, vendidos: true, _id: false,  
-  }).sort({"vendidos": 1});
+}).sort({ vendidos: 1 });
